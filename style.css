@@ -1,6 +1,23 @@
+.inter-black{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+.raleway-bold {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:700;
+  font-style: normal;
+}
+
 *{
    margin: 0;
    padding: 0;
+}
+body{
+   font-family: "Raleway", sans-serif;
+   background-color: #F5F8FF;
 }
 /* styles navigation sec */
 nav{
@@ -11,9 +28,10 @@ nav{
    padding-top: 30px;
    
 }
+
 .logo{
    color: #4E47FF;
-   font-size: 34px;
+   font-size: 50px;
 }
 .btn-primary{
 background-color: #4E47FF;
@@ -42,11 +60,17 @@ header{
    margin-top: 30px;
 }
 .action{
-   margin: 20px 200px;
+
    display: flex;
    margin-top: 134px;
-   justify-content: space-between;
+    justify-content: space-between;
    background-color: #ffffffbd;
+   /* justify-content: center; */
+   gap: 40px;
+   height: 330px;
+   width: 1140px;
+   margin: 50px auto;
+   align-items: center;
 }
 .section-title{
    font-weight: bold;
@@ -58,7 +82,129 @@ header{
    margin-bottom: 23px;
 }
 img{
-   height: 200px;
-   width: 300px;
+   height: 100%;
+   object-fit: cover;
+    width: 400px;
    border-radius: 20px;
 }
+.title{
+   margin: 20px 200px;
+   text-align: center;
+   font-weight: bold;
+   font-size: 38px;
+}
+ .number{
+   display: flex;
+   justify-content: center;
+   font-size: 50px;
+   color: #4E47FF;
+   margin:0 180px;
+   width: 100%; 
+   gap: 158px;
+   
+}
+.productive{
+   height: 306px;
+   width: 1100px;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin: 0 auto;
+   /* background-color: #4E47FF; */
+   background-color:#E5E7FF;
+   border-radius:24px;
+}
+.users-card{
+   display: flex;
+   justify-content: center;
+   gap: 44px;
+}
+.card-img{
+   height: 40px;
+   width: 40px;
+}
+.span-img{
+   display: flex;
+   margin-top: 20px;
+}
+.users-saying{
+font-weight: bold;
+font-size: 42px;
+text-align: center;
+margin-top: 139px;
+/* font-family: "Raleway", sans-serif; */
+}
+.star-img{
+   height: 20px;
+   width: 20px;
+   margin-bottom: 10px;
+}
+.users-title{
+   margin-bottom: 50px;
+}
+.love{
+   font-size: 25px;
+}
+.webflow{
+   text-align: center;
+   margin-top: 208px;
+}
+.rdy{
+   margin-bottom: 20px;
+}
+.text{
+   margin-bottom: 20px;
+}
+.web-button{
+   margin-bottom: 20px;
+}
+.wc-big{
+   height: 300px;
+   width: 700px;
+   margin-bottom: 20px;
+}
+.rdy{
+   font-weight: bold;
+   font-size: 50px;
+}
+.title-text{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+   margin-top: 90px;
+}
+.heading-text{
+   font-weight: bold;
+   font-size: 50px;
+}
+.form{
+   font-size: 15px;
+   margin-bottom: 10px;
+
+}
+.form input{
+   margin-bottom: 20px;
+   padding: 15px 20px;
+}
+.form textarea{
+   padding: 15px 20px;
+}
+.last-text{
+   text-align: center;
+}
+.last-text{
+   margin-bottom: 10px;
+}
+.item{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+   list-style: none;
+}
+ul li a{
+   text-decoration: none;
+}
+
